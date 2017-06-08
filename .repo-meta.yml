@@ -15,7 +15,7 @@ ddd:
   context_map_url: 
 links:
   system_documentation_url: 
-  source_repo_url: https://github.com/byu-oit-appdev/cas-mfa
+  source_repo_url: https://github.com/byu-oit/cas-mfa
   swagger_urls:
 microservice: false
 technologies_used:
@@ -53,5 +53,5 @@ tags:
   env: prd
   team: AD-Identity and Access Management
   app: cas-mfa
-federation_json_url: https://raw.githubusercontent.com/byu-oit-appdev/cas-mfa/master/.repo-meta.yml
+federation_json_url: https://raw.githubusercontent.com/byu-oit/cas-mfa/master/.repo-meta.yml
 
