@@ -1,4 +1,4 @@
-$schemaver: '2.0'
+$schemaver: 2.1
 repo_url: https://github.com/byu-oit/cas-mfa
 software:
   - name: cas-mfa
@@ -39,7 +39,7 @@ software:
             db_read_write:
             db_read_only:
             software:
-              - CAS (Central Authentication Service)
+              - CAS (Central Authentication Service) Web App Production
           supports:
             software:
             service:
@@ -49,7 +49,4 @@ software:
             virtual_server:
             rack_server:
             blade_server:
-    tags:
-      data-sensitivity: confidential
-      team: AD-Identity and Access Management
-      app: cas-mfa
+    data_sensitivity: confidential
